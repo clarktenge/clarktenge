@@ -18,3 +18,21 @@ My name is Clark enge and I am going into my third year at the University of Cal
 [Outlier-Resistant A/B Test Simulation Study](https://github.com/clarktenge/AB-Simulation-Study)
 
 Designed and implemented a large-scale simulation study to evaluate the robustness of A/B testing methods under varying levels of outliers, effect sizes, and sample sizes. Simulated over 1 million experiments across 100 unique scenarios in R to compare the standard t-test, Welch’s t-test, and a 10% trimmed mean t-test. Assessed statistical power, conducted paired t-tests, and visualized results using ggplot2. Found that trimmed and Welch tests outperform under skewed, noisy data conditions, providing practical recommendations for real-world experimentation.
+
+
+[Predictive Algorithm for March Madness](https://github.com/yourusername/March-Madness-Predictor)
+
+Built an NCAA Men’s Basketball tournament predictor using Python, NumPy, and Pandas. Analyzed **20+ years of historical tournament data** using SQL to rank and weight predictive metrics such as 3PT%, FT%, and Points Per Game. Simulated full brackets based on a custom scoring system, achieving **25% Final Four prediction accuracy** in 2017 and 2018, outperforming baseline models by over 15%.
+
+
+# Independent Work
+
+---
+
+### SQL Essential Training
+
+Completed a structured SQL training program covering foundational to intermediate SQL concepts including joins, subqueries, aggregations, window functions, and stored procedures. Gained hands-on experience querying real-world datasets using MySQL and SQL Server Management Studio.
+
+### Chainlink 101: Blockchain Developer Fundamentals
+
+Studied the fundamentals of decentralized oracle networks and smart contract integration using Chainlink. Gained exposure to Solidity, Web3 infrastructure, and Chainlink VRF, with practical labs focused on building smart contracts that securely fetch external data on-chain.
