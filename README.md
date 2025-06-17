@@ -15,3 +15,6 @@ My name is Clark enge and I am going into my third year at the University of Cal
 
 # Projects
 
+[Outlier-Resistant A/B Test Simulation Study](https://github.com/clarktenge/AB-Simulation-Study)
+
+Designed and implemented a large-scale simulation study to evaluate the robustness of A/B testing methods under varying levels of outliers, effect sizes, and sample sizes. Simulated over 1 million experiments across 100 unique scenarios in R to compare the standard t-test, Welch’s t-test, and a 10% trimmed mean t-test. Assessed statistical power, conducted paired t-tests, and visualized results using ggplot2. Found that trimmed and Welch tests outperform under skewed, noisy data conditions, providing practical recommendations for real-world experimentation.
