@@ -15,6 +15,11 @@ My name is Clark enge and I am going into my third year at the University of Cal
 
 # Projects
 
+[Airbnb Los Angeles Real Estate Revenue Analysis](https://github.com/clarktenge/AirbnbLARealEstateRevenueAnalysis).
+
+Designed and implemented a large-scale data analysis project to evaluate short-term rental revenue performance across major Los Angeles neighborhoods. Processed and analyzed over 1.2 million rows of Airbnb listings and calendar data using Python and Parquet-based ETL pipelines. Modeled neighborhood-specific revenue drivers using OLS regressions with interaction terms and decision trees to identify high-performing bedroom–bathroom configurations. Quantified how certain unit types outperform local and citywide benchmarks, producing data-driven insights for real estate investment decision-making.
+
+
 [Outlier-Resistant A/B Test Simulation Study](https://github.com/clarktenge/AB-Simulation-Study)
 
 Designed and implemented a large-scale simulation study to evaluate the robustness of A/B testing methods under varying levels of outliers, effect sizes, and sample sizes. Simulated over 1 million experiments across 100 unique scenarios in R to compare the standard t-test, Welch’s t-test, and a 10% trimmed mean t-test. Assessed statistical power, conducted paired t-tests, and visualized results using ggplot2. Found that trimmed and Welch tests outperform under skewed, noisy data conditions, providing practical recommendations for real-world experimentation.
