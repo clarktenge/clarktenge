@@ -15,6 +15,14 @@ My name is Clark enge and I am going into my third year at the University of Cal
 
 # Projects
 
+[TMDB Movie & TV Recommender System](#) *(In Progress)*
+
+Designing and building a content-based recommendation system for movies and TV shows using data collected from The Movie Database (TMDB) public API. Targeting 5,000–10,000 titles across both categories, extracting features including genres, keywords, overview text, runtime, language, and popularity scores. Processing natural language overview text using TF-IDF vectorization and combining it with structured categorical features to compute pairwise content similarity scores for ranking recommendations. Investigating whether content-based similarity tends to cluster within genre boundaries or surface cross-genre results, and whether these patterns differ between movies and TV shows.
+
+[CQEC ML Decoder](https://github.com/pkarakala/cqec-ml-decoder)
+
+Designed and implemented a machine learning study to evaluate neural network decoders for continuous quantum error correction on a 3-qubit repetition code. Benchmarked three decoding approaches — a threshold heuristic, a Bayesian filter (Wonham/HMM), and a GRU recurrent neural network — across four phases of increasing physical realism, including non-ideal hardware effects and parameter drift. Demonstrated that the GRU decoder achieves higher accuracy (~96%) compared to the Bayesian filter (~94%) under clean conditions, and degrades more gracefully when real hardware violates the Bayesian model's white-noise assumptions. Developed a hybrid supervision strategy combining periodic ground-truth labels with pseudo-label self-training to sustain decoder performance under parameter drift with minimal annotation overhead.
+
 [Airbnb Los Angeles Real Estate Revenue Analysis](https://github.com/clarktenge/AirbnbLARealEstateRevenueAnalysis).
 
 Designed and implemented a large-scale data analysis project to evaluate short-term rental revenue performance across major Los Angeles neighborhoods. Processed and analyzed over 1.2 million rows of Airbnb listings and calendar data using Python and Parquet-based ETL pipelines. Modeled neighborhood-specific revenue drivers using OLS regressions with interaction terms and decision trees to identify high-performing bedroom–bathroom configurations. Quantified how certain unit types outperform local and citywide benchmarks, producing data-driven insights for real estate investment decision-making.
@@ -35,7 +43,7 @@ Built an NCAA Men’s Basketball tournament predictor using Python, NumPy, and P
 
 ### [Coursera IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)
 
-In progress of completing an in-depth 12-course certification program through Coursera, developed by IBM. Gaining hands-on experience with tools like Python, SQL, Jupyter Notebooks, and data visualization libraries. Learning to clean and analyze real-world datasets, build machine learning models, and communicate findings through data-driven projects aligning with industry standards.
+Completing an in-depth 12-course certification program through Coursera, developed by IBM. Gained hands-on experience with tools like Python, SQL, Jupyter Notebooks, and data visualization libraries. Learned to clean and analyze real-world datasets, build machine learning models, and communicate findings through data-driven projects aligning with industry standards.
 
 
 ### [SQL Essential Training](https://www.linkedin.com/in/clark-enge-5a0775179/overlay/1744056461946/single-media-viewer?type=DOCUMENT&profileId=ACoAACpLQAgBDbW6DPlWNT_i_O5J6L14ZTIETco&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BjIF0Fb6tQCOhfklUi0TF5w%3D%3D)   
