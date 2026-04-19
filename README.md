@@ -15,7 +15,7 @@ My name is Clark enge and I am going into my third year at the University of Cal
 
 # Projects
 
-[TMDB Movie & TV Recommender System](#) *(In Progress)*
+[TMDB Movie & TV Recommender System](https://github.com/jaydengould/Movie-TV-Show-Recommender) *(In Progress)*
 
 Designing and building a content-based recommendation system for movies and TV shows using data collected from The Movie Database (TMDB) public API. Targeting 5,000–10,000 titles across both categories, extracting features including genres, keywords, overview text, runtime, language, and popularity scores. Processing natural language overview text using TF-IDF vectorization and combining it with structured categorical features to compute pairwise content similarity scores for ranking recommendations. Investigating whether content-based similarity tends to cluster within genre boundaries or surface cross-genre results, and whether these patterns differ between movies and TV shows.
 
