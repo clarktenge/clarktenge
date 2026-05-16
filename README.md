@@ -1,55 +1,78 @@
-# Hi there 👋, I'm Clark Enge
+# Hi, I'm Clark Enge
 
-## Introduction
+I build ML systems for **noisy, time-series data** — from recurrent neural network decoders on simulated quantum hardware to large-scale statistical pipelines. Currently a Statistics & Data Science student at UC Santa Barbara, with a focus on the mathematical foundations of machine learning and signal-driven modeling.
 
-My name is Clark enge and I am going into my third year at the University of California Santa Barbara where I am pursuing a major in Statistics & Data Science as well as completing the PaCE Certificate of Technology Management. I am intensly curious about the intersection of data and business analyics and using my skills to solve real world issues. I love data-driven decision marking and want to dive deep into the technical foundation of machine learning. 
-
- **Check out my** [Resume](https://github.com/clarktenge/clarktenge-documents/blob/main/Clark%20Enge%20-%20Resume.pdf)
----
-
-## Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/clark-enge-5a0775179/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:clarkenge23@gmail.com) 
-
-## Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-
-# Projects
-
-[TMDB Movie & TV Recommender System](https://github.com/jaydengould/Movie-TV-Show-Recommender) *(In Progress)*
-
-Designing and building a content-based recommendation system for movies and TV shows using data collected from The Movie Database (TMDB) public API. Targeting 5,000–10,000 titles across both categories, extracting features including genres, keywords, overview text, runtime, language, and popularity scores. Processing natural language overview text using TF-IDF vectorization and combining it with structured categorical features to compute pairwise content similarity scores for ranking recommendations. Investigating whether content-based similarity tends to cluster within genre boundaries or surface cross-genre results, and whether these patterns differ between movies and TV shows.
-
-[CQEC ML Decoder](https://github.com/clarktenge/cqec-ml-decoder) 
-
-Designed and implemented a machine learning study to evaluate neural network decoders for continuous quantum error correction on a 3-qubit repetition code. Benchmarked three decoding approaches — a threshold heuristic, a Bayesian filter (Wonham/HMM), and a GRU recurrent neural network — across four phases of increasing physical realism, including non-ideal hardware effects and parameter drift. Demonstrated that the GRU decoder achieves higher accuracy (~96%) compared to the Bayesian filter (~94%) under clean conditions, and degrades more gracefully when real hardware violates the Bayesian model's white-noise assumptions. Developed a hybrid supervision strategy combining periodic ground-truth labels with pseudo-label self-training to sustain decoder performance under parameter drift with minimal annotation overhead.
-
-[Airbnb Los Angeles Real Estate Revenue Analysis](https://github.com/clarktenge/AirbnbLARealEstateRevenueAnalysis).
-
-Designed and implemented a large-scale data analysis project to evaluate short-term rental revenue performance across major Los Angeles neighborhoods. Processed and analyzed over 1.2 million rows of Airbnb listings and calendar data using Python and Parquet-based ETL pipelines. Modeled neighborhood-specific revenue drivers using OLS regressions with interaction terms and decision trees to identify high-performing bedroom–bathroom configurations. Quantified how certain unit types outperform local and citywide benchmarks, producing data-driven insights for real estate investment decision-making.
-
-
-[Outlier-Resistant A/B Test Simulation Study](https://github.com/clarktenge/AB-Simulation-Study)
-
-Designed and implemented a large-scale simulation study to evaluate the robustness of A/B testing methods under varying levels of outliers, effect sizes, and sample sizes. Simulated over 1 million experiments across 100 unique scenarios in R to compare the standard t-test, Welch’s t-test, and a 10% trimmed mean t-test. Assessed statistical power, conducted paired t-tests, and visualized results using ggplot2. Found that trimmed and Welch tests outperform under skewed, noisy data conditions, providing practical recommendations for real-world experimentation.
-
-[Predictive Algorithm for March Madness](https://github.com/clarktenge/Predictive-Algorithm-for-March-Madness-)
-
-Built an NCAA Men’s Basketball tournament predictor using Python, NumPy, and Pandas. Analyzed **20+ years of historical tournament data** using SQL to rank and weight predictive metrics such as 3PT%, FT%, and Points Per Game. Simulated full brackets based on a custom scoring system, achieving **25% Final Four prediction accuracy** in 2017 and 2018, outperforming baseline models by over 15%.
-
-
-# Independent Work
+📄 **[Resume](https://github.com/clarktenge/clarktenge-documents/blob/main/Clark%20Enge%20-%20Resume.pdf)** · 💼 **[LinkedIn](https://www.linkedin.com/in/clark-enge-5a0775179/)** · 📬 **[clarkenge23@gmail.com](mailto:clarkenge23@gmail.com)**
 
 ---
 
-### [Coursera IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)
+## Tech Stack
 
-Completing an in-depth 12-course certification program through Coursera, developed by IBM. Gained hands-on experience with tools like Python, SQL, Jupyter Notebooks, and data visualization libraries. Learned to clean and analyze real-world datasets, build machine learning models, and communicate findings through data-driven projects aligning with industry standards.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
+**Signal Processing · Time-Series Modeling · Recurrent Neural Networks · Bayesian Inference · Statistical Simulation**
 
-### [SQL Essential Training](https://www.linkedin.com/in/clark-enge-5a0775179/overlay/1744056461946/single-media-viewer?type=DOCUMENT&profileId=ACoAACpLQAgBDbW6DPlWNT_i_O5J6L14ZTIETco&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BjIF0Fb6tQCOhfklUi0TF5w%3D%3D)   
+---
 
-Completed a structured SQL training program covering foundational to intermediate SQL concepts including joins, subqueries, aggregations, window functions, and stored procedures. Gained hands-on experience querying real-world datasets using MySQL and SQL Server Management Studio.
+## Projects
 
-### Chainlink 101: Blockchain Developer Fundamentals
+### [Continuous Quantum Error Correction with ML Decoders](https://github.com/clarktenge/cqec-ml-decoder) · *Co-authored with Pranav Reddy*
 
-Studied the fundamentals of decentralized oracle networks and smart contract integration using Chainlink. Gained exposure to Solidity, Web3 infrastructure, and Chainlink VRF, with practical labs focused on building smart contracts that securely fetch external data on-chain.
+Built and benchmarked a GRU recurrent neural network decoder for continuous quantum error correction — a problem structurally identical to neural signal decoding: noisy real-valued time-series → classify hidden system state.
+
+- **GRU achieved 96% accuracy** vs. 94% Bayesian filter and 86% threshold baseline under clean conditions
+- Tested across **4 phases of increasing hardware realism**: colored noise (AR(1)), post-flip transients, random-walk parameter drift, and time-varying non-idealities — directly modeling real hardware failure modes
+- Bayesian filter degrades sharply when its white-noise and static-parameter assumptions are violated; GRU adapts
+- Developed **hybrid supervision strategy** (periodic ground-truth labels + pseudo-label self-training) to maintain decoder accuracy under distribution shift with <2% annotation overhead
+- **248 unit tests** across 5 modules; trajectory-level train/test split to prevent data leakage
+- Stack: Python · PyTorch · NumPy · SciPy · scikit-learn · QuTiP
+
+---
+
+### [Airbnb Los Angeles Real Estate Revenue Analysis](https://github.com/clarktenge/AirbnbLARealEstateRevenueAnalysis)
+
+- Processed and analyzed **1.2M+ rows** of listing and calendar data via Parquet-based ETL pipelines
+- Modeled neighborhood revenue drivers with OLS regression (interaction terms) and decision trees
+- Identified high-performing bedroom–bathroom configurations that outperform local and citywide benchmarks
+- Stack: Python · Pandas · scikit-learn · Matplotlib
+
+---
+
+### [Outlier-Resistant A/B Test Simulation Study](https://github.com/clarktenge/AB-Simulation-Study)
+
+- Simulated **1M+ experiments** across 100 scenarios in R to stress-test A/B testing methods under outliers
+- Compared standard t-test, Welch's t-test, and 10% trimmed mean t-test across effect sizes and sample sizes
+- Found trimmed and Welch tests outperform under skewed, heavy-tailed distributions — with paired t-test validation
+- Stack: R · ggplot2
+
+---
+
+### [March Madness Bayesian Predictor](https://github.com/clarktenge/March-Madness-Bayesian-Predictor)
+
+- Analyzed **20+ years** of NCAA tournament data via SQL to weight predictive metrics (3PT%, FT%, PPG)
+- Achieved **25% Final Four accuracy** in 2017 and 2018, outperforming baseline models by 15%+
+- Stack: Python · NumPy · Pandas · SQL
+
+---
+
+### [TMDB Movie & TV Recommender System](https://github.com/jaydengould/Movie-TV-Show-Recommender) *(In Progress)*
+
+- Content-based recommendation engine across 5,000–10,000 titles using TF-IDF on overview text combined with structured feature similarity
+- Investigating cross-genre recommendation patterns vs. within-genre clustering
+- Stack: Python · Pandas · scikit-learn
+
+---
+
+## Independent Work
+
+**[Coursera IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)** *(In Progress)*
+12-course program covering ML modeling, SQL, data visualization, and end-to-end data science workflows.
+
+**[SQL Essential Training](https://www.linkedin.com/in/clark-enge-5a0775179/)** — Joins, subqueries, window functions, stored procedures in MySQL and SQL Server.
