@@ -19,7 +19,7 @@ My name is Clark enge and I am going into my third year at the University of Cal
 
 Designing and building a content-based recommendation system for movies and TV shows using data collected from The Movie Database (TMDB) public API. Targeting 5,000–10,000 titles across both categories, extracting features including genres, keywords, overview text, runtime, language, and popularity scores. Processing natural language overview text using TF-IDF vectorization and combining it with structured categorical features to compute pairwise content similarity scores for ranking recommendations. Investigating whether content-based similarity tends to cluster within genre boundaries or surface cross-genre results, and whether these patterns differ between movies and TV shows.
 
-[CQEC ML Decoder](https://github.com/pkarakala/cqec-ml-decoder) *(In Progress)*
+[CQEC ML Decoder](https://github.com/clarktenge/cqec-ml-decoder) 
 
 Designed and implemented a machine learning study to evaluate neural network decoders for continuous quantum error correction on a 3-qubit repetition code. Benchmarked three decoding approaches — a threshold heuristic, a Bayesian filter (Wonham/HMM), and a GRU recurrent neural network — across four phases of increasing physical realism, including non-ideal hardware effects and parameter drift. Demonstrated that the GRU decoder achieves higher accuracy (~96%) compared to the Bayesian filter (~94%) under clean conditions, and degrades more gracefully when real hardware violates the Bayesian model's white-noise assumptions. Developed a hybrid supervision strategy combining periodic ground-truth labels with pseudo-label self-training to sustain decoder performance under parameter drift with minimal annotation overhead.
 
