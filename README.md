@@ -72,7 +72,7 @@ Built and benchmarked a GRU recurrent neural network decoder for continuous quan
 
 ## Independent Work
 
-**[Coursera IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)** *(In Progress)*
+**[Coursera IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)** 
 12-course program covering ML modeling, SQL, data visualization, and end-to-end data science workflows.
 
 **[SQL Essential Training](https://www.linkedin.com/in/clark-enge-5a0775179/)** — Joins, subqueries, window functions, stored procedures in MySQL and SQL Server.
