@@ -53,6 +53,14 @@ framed around the neural state estimation problem faced by adaptive brain-comput
 
 ---
 
+### [TMDB Movie & TV Recommender System](https://github.com/jaydengould/Movie-TV-Show-Recommender) *(In Progress)*
+
+- Content-based recommendation engine across 5,000–10,000 titles using TF-IDF on overview text combined with structured feature similarity
+- Investigating cross-genre recommendation patterns vs. within-genre clustering
+- Stack: Python · Pandas · scikit-learn
+
+---
+
 ### [Airbnb Los Angeles Real Estate Revenue Analysis](https://github.com/clarktenge/AirbnbLARealEstateRevenueAnalysis)
 
 - Processed and analyzed **1.2M+ rows** of listing and calendar data via Parquet-based ETL pipelines
@@ -76,14 +84,6 @@ framed around the neural state estimation problem faced by adaptive brain-comput
 - Analyzed **20+ years** of NCAA tournament data via SQL to weight predictive metrics (3PT%, FT%, PPG)
 - Achieved **25% Final Four accuracy** in 2017 and 2018, outperforming baseline models by 15%+
 - Stack: Python · NumPy · Pandas · SQL
-
----
-
-### [TMDB Movie & TV Recommender System](https://github.com/jaydengould/Movie-TV-Show-Recommender) *(In Progress)*
-
-- Content-based recommendation engine across 5,000–10,000 titles using TF-IDF on overview text combined with structured feature similarity
-- Investigating cross-genre recommendation patterns vs. within-genre clustering
-- Stack: Python · Pandas · scikit-learn
 
 ---
 
