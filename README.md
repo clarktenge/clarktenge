@@ -36,6 +36,23 @@ Built and benchmarked a GRU recurrent neural network decoder for continuous quan
 
 ---
 
+### [EEG Sleep Alpha Power Forecasting · SARIMA & Spectral Analysis](https://github.com/clarktenge/eeg-sleep-sarima) *(In Progress)*
+
+Modeling EEG alpha band power (8–13 Hz) as a time series across human sleep cycles using SARIMA — 
+framed around the neural state estimation problem faced by adaptive brain-computer interfaces.
+
+- Extracting **~900-epoch time series** from PhysioNet Sleep-EDF overnight recordings via band-pass 
+  filtering and Welch power estimation
+- Applying **log transformation and seasonal differencing** to achieve stationarity; using ACF/PACF 
+  to systematically identify candidate SARIMA models and selecting via AICc
+- Conducting **spectral analysis** via periodogram to identify dominant frequency peaks — targeting 
+  recovery of the known ~90-minute ultradian sleep cycle and alpha-band oscillatory structure
+- Validating forecasts on a held-out test set with confidence intervals, back-transformed to 
+  original scale
+- Stack: Python · MNE · SciPy · NumPy · statsmodels · Matplotlib
+
+---
+
 ### [Airbnb Los Angeles Real Estate Revenue Analysis](https://github.com/clarktenge/AirbnbLARealEstateRevenueAnalysis)
 
 - Processed and analyzed **1.2M+ rows** of listing and calendar data via Parquet-based ETL pipelines
