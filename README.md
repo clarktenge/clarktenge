@@ -46,11 +46,10 @@ Modeling EEG alpha band power (8–13 Hz) as a time series across human sleep cy
 
 ---
 
-### [TMDB Movie & TV Recommender System](https://github.com/jaydengould/Movie-TV-Show-Recommender) *(In Progress)*
-
-- Content-based recommendation engine across 5,000–10,000 titles using TF-IDF on overview text combined with structured feature similarity
-- Investigating cross-genre recommendation patterns vs. within-genre clustering
-- Stack: Python · Pandas · scikit-learn
+### [TMDB Movie & TV Recommender System](https://github.com/clarktenge/movie-recommender)
+- Content-based recommendation engine across ~9,900 titles using TF-IDF vectorization and cosine similarity on weighted metadata (genres 3×, cast 2×, keywords 2×)
+- Tuned a blended ranking score (text similarity 0.95 · popularity 0.03 · vote average 0.02) to surface thematically relevant results over popular-but-unrelated ones
+- Stack: Python · Pandas · scikit-learn · NLTK · TMDB API
 
 ---
 
