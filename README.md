@@ -36,19 +36,12 @@ Built and benchmarked a GRU recurrent neural network decoder for continuous quan
 
 ---
 
-### [EEG Sleep Alpha Power Forecasting · SARIMA & Spectral Analysis](https://github.com/clarktenge/eeg-sleep-sarima) *(In Progress)*
-
-Modeling EEG alpha band power (8–13 Hz) as a time series across human sleep cycles using SARIMA — 
-framed around the neural state estimation problem faced by adaptive brain-computer interfaces.
-
-- Extracting **~900-epoch time series** from PhysioNet Sleep-EDF overnight recordings via band-pass 
-  filtering and Welch power estimation
-- Applying **log transformation and seasonal differencing** to achieve stationarity; using ACF/PACF 
-  to systematically identify candidate SARIMA models and selecting via AICc
-- Conducting **spectral analysis** via periodogram to identify dominant frequency peaks — targeting 
-  recovery of the known ~90-minute ultradian sleep cycle and alpha-band oscillatory structure
-- Validating forecasts on a held-out test set with confidence intervals, back-transformed to 
-  original scale
+### [EEG Sleep Alpha Power Forecasting · ARMA & Spectral Analysis](https://github.com/clarktenge/eeg-sleep-sarima)
+Modeling EEG alpha band power (8–13 Hz) as a time series across human sleep cycles using a hand-built ARMA pipeline — framed around the neural state estimation problem faced by adaptive brain-computer interfaces.
+- Extracting a **~2650-epoch univariate series** from a PhysioNet Sleep-EDF overnight recording via per-epoch band-pass filtering and Welch power estimation
+- Applying a **log transform** to stabilise multiplicative variance; rejecting seasonal differencing (it increases variance and has no ACF/PACF signature); selecting **ARMA(2,0,1)** on the log level via hand-coded AICc and MA root diagnostics confirming d=0
+- Conducting **spectral analysis** via periodogram and Fisher's g-test to identify the ultradian band (~66–95 min) and explain why no single seasonal lag could capture it; confirming residual spectral whiteness with a KS cumulative-periodogram test
+- Reporting **1-step-ahead forecasts** (19.6% MAPE) back-transformed with log-normal bias correction, beating persistence and naive-seasonal baselines; McLeod-Li test identifies residual ARCH structure as the direction for future GARCH work
 - Stack: Python · MNE · SciPy · NumPy · statsmodels · Matplotlib
 
 ---
