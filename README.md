@@ -23,6 +23,18 @@ I build ML systems for **noisy, time-series data** — from recurrent neural net
 
 ## Projects
 
+### [Swiss Guard](https://github.com/clarktenge/swiss_guard) · *In Progress*
+
+A personal multi-agent intelligence OS for automation of daily tasks. five specialized AI agents that run on a schedule, surface what matters, and report into a unified dashboard. Built to explore agent architecture, persistent memory, and production deployment patterns.
+
+- **Multi-agent orchestration via n8n** — agents run on independent cron schedules with dependency resolution (email digest waits on triage completion before executing)
+- **Persistent semantic memory** using Supabase (Postgres + pgvector) and Voyage AI embeddings — agents retrieve contextually relevant prior outputs before each run, enabling continuity across sessions
+- **Governance layer** classifies every agent output as READ_ONLY, DRAFT, or ACTION before surfacing to dashboard — explicit human-in-the-loop design for any autonomous action
+- **Covers five domains**: email triage & deep summarization (ISW, research papers, opportunities), end-of-day market reports with portfolio P&L, daily health sync from Strava and Garmin, and weekly productivity wrap
+- Stack: Python · Anthropic SDK · n8n · Supabase · pgvector · Voyage AI · Retool → React
+
+---
+
 ### [Continuous Quantum Error Correction with ML Decoders](https://github.com/clarktenge/cqec-ml-decoder) · *Co-authored with Pranav Reddy*
 
 Built and benchmarked a GRU recurrent neural network decoder for continuous quantum error correction — a problem structurally identical to neural signal decoding: noisy real-valued time-series → classify hidden system state.
