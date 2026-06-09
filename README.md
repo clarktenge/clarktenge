@@ -1,23 +1,24 @@
 # Hi, I'm Clark Enge
 
-I build ML systems for **noisy, time-series data** — from recurrent neural network decoders on simulated quantum hardware to large-scale statistical pipelines. Currently a Statistics & Data Science student at UC Santa Barbara, with a focus on the mathematical foundations of machine learning and signal-driven modeling.
+I build ML systems at the intersection of rigorous statistical foundations and production AI engineering, from recurrent neural network decoders on simulated quantum hardware to agentic systems that operate autonomously on real-world data. Currently a Statistics & Data Science student at UC Santa Barbara and ML Researcher at the Air Force Research Laboratory, studying the reality gap between synthetic and real-world satellite imagery.
 
 📄 **[Resume](https://github.com/clarktenge/clarktenge-documents/blob/main/Clark%20Enge%20-%20Resume.pdf)** · 💼 **[LinkedIn](https://www.linkedin.com/in/clark-enge-5a0775179/)** · 📬 **[clarkenge23@gmail.com](mailto:clarkenge23@gmail.com)**
 
 ---
 
 ## Tech Stack
-
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Agentic AI](https://img.shields.io/badge/Agentic%20AI-%236B21A8.svg?style=for-the-badge&logoColor=white)
 
-**Signal Processing · Time-Series Modeling · Recurrent Neural Networks · Bayesian Inference · Statistical Simulation**
+**Signal Processing** · **Time-Series Modeling** · **Bayesian Inference** · 
+**Statistical Simulation** · **Computer Vision** · **Reinforcement Learning** · 
+**Agentic Systems** · **Database Design** · **NoSQL & NewSQL**
 
 ---
 
