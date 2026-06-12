@@ -1,10 +1,21 @@
 # Hi, I'm Clark Enge
 
-I build ML systems at the intersection of rigorous statistical foundations and production AI engineering, from recurrent neural network decoders on simulated quantum hardware to agentic systems that operate autonomously on real-world data. Currently a Statistics & Data Science student at UC Santa Barbara and ML Researcher at the Air Force Research Laboratory, studying the reality gap between synthetic and real-world satellite imagery.
+I make AI useful. I take state-of-the-art models and tools and weigh the tradeoffs/costs, wire the pieces together, and turn the output into something people can actually act on.
+
+Quantitative foundation in statistics & data science from **UC Santa Barbara**, ISR research at the **Air Force Research Laboratory**, and a multi-agent automation system I run on my own life.
 
 📄 **[Resume](https://github.com/clarktenge/clarktenge-documents/blob/main/Clark%20Enge%20-%20Resume.pdf)** · 💼 **[LinkedIn](https://www.linkedin.com/in/clark-enge-5a0775179/)** · 📬 **[clarkenge23@gmail.com](mailto:clarkenge23@gmail.com)**
 
 ---
+## What I'm doing now
+
+### ML Research Intern - Air Force Research Laboratory (AFRL) - Summer 2026
+Studying the reality gap between synthetic and real-world multispectral satellite imagery for intelligence, surveillance, and reconnaissance. I characterize both datasets, build domain-alignment metrics to quantify the gap, and benchmark how different blends of real and synthetic training data affect model performance, then turn the findings into practical recommendations for using synthetic data in operational ML pipelines.
+
+
+## What I do
+**Applied ML** · **AI integration & orchestration** · **Model Eval & Tradeoffs** · **Time-Series Modeling** · **Statistical Analysis** · **Turn Data into Decisions** · **Agentic Design**
+
 
 ## Tech Stack
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -15,10 +26,6 @@ I build ML systems at the intersection of rigorous statistical foundations and p
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![Agentic AI](https://img.shields.io/badge/Agentic%20AI-%236B21A8.svg?style=for-the-badge&logoColor=white)
-
-**Signal Processing** · **Time-Series Modeling** · **Bayesian Inference** · 
-**Statistical Simulation** · **Computer Vision** · **Reinforcement Learning** · 
-**Agentic Systems** · **Database Design** · **NoSQL & NewSQL**
 
 ---
 
